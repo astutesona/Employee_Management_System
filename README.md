@@ -1,29 +1,29 @@
-# 🏥 Enterprise Employee Management System
+# Enterprise Employee Management System
 A high-performance, enterprise-grade RESTful management platform. This system leverages **Node.js** for secure orchestration and a native **C++ Analytics Engine** for heavy financial computations, delivering a premium user experience with real-time data visualization.
-## ✨ Key Features
-### 📊 Real-Time Dashboard
+## Key Features
+###Real-Time Dashboard
 - **Dynamic Metrics**: Instant calculations for Total Employees, Annual Payroll, Department Counts, and Average Salary.
 - **Visual Analytics**: Interactive widgets providing a bird's-eye view of your organization's human capital.
 
-### ⚙️ High-Performance C++ Engine
+### High-Performance C++ Engine
 - **Native Computations**: Offloads financial logic (Tax, Bonus, Net Pay) to a compiled C++ binary.
 - **Calculated Metrics**:
-  - 💹 **Professional Tax**: Automated deduction based on salary brackets.
-  - 🏆 **Performance Bonus**: Dynamic bonus projections.
-  - 💵 **Net Pay**: Accurate take-home pay calculations after native processing.
+  - **Professional Tax**: Automated deduction based on salary brackets.
+  - **Performance Bonus**: Dynamic bonus projections.
+  - **Net Pay**: Accurate take-home pay calculations after native processing.
 
-### 🔒 Enterprise-Grade Security
+### Enterprise-Grade Security
 - **JWT Authentication**: Secure, token-based state management.
 - **Bcrypt Protection**: Industry-standard password hashing.
 - **Protected Routes**: Middleware-enforced authorization for all sensitive API endpoints.
 
-### 📂 Data Portability
+### Data Portability
 - **CSV Export**: One-click data portability for external reporting (Excel/Google Sheets).
 - **File-Based Persistence**: Default JSON storage (MongoDB-ready for infinite scaling).
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Layer | Technologies |
 | :--- | :--- |
@@ -35,7 +35,7 @@ A high-performance, enterprise-grade RESTful management platform. This system le
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (LTS recommended)
@@ -63,7 +63,7 @@ A high-performance, enterprise-grade RESTful management platform. This system le
 
 ## 📖 API Documentation
 
-### 🔐 Authentication
+### Authentication
 `POST /login` - Establish a secure session.
 ```json
 {
@@ -72,7 +72,7 @@ A high-performance, enterprise-grade RESTful management platform. This system le
 }
 ```
 
-### 👥 Employee Operations
+### Employee Operations
 *All requests require `Authorization: Bearer <token>`*
 
 - `GET /employees` - Retrieve full organizational data.
@@ -80,7 +80,7 @@ A high-performance, enterprise-grade RESTful management platform. This system le
 - `PUT /employees/:id` - Modify existing personnel details.
 - `DELETE /employees/:id` - Permanent record deletion.
 
-### 🔬 Native Analytics
+### Native Analytics
 `POST /api/cpp-calculate` - Trigger the C++ Analytics Engine.
 ```json
 {
@@ -90,7 +90,7 @@ A high-performance, enterprise-grade RESTful management platform. This system le
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 ├── server.js              # Core Node.js API Gateway
@@ -106,11 +106,7 @@ A high-performance, enterprise-grade RESTful management platform. This system le
 
 ---
 
-## 🛡️ Security Best Practices
-
-> - **Session Management**: JWT tokens expire after 1 hour of inactivity.
-> - **Data Integrity**: The system validates all inputs before processing via the C++ engine.
-> - **Scalability**: While using file-storage by default, the architecture is pre-configured for **MongoDB Atlas** integration.
+##
 
 
 
