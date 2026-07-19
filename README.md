@@ -1,7 +1,7 @@
 # Enterprise Employee Management System
 A high-performance, enterprise-grade RESTful management platform. This system leverages **Node.js** for secure orchestration and a native **C++ Analytics Engine** for heavy financial computations, delivering a premium user experience with real-time data visualization.
 ## Key Features
-###Real-Time Dashboard
+### Real-Time Dashboard
 - **Dynamic Metrics**: Instant calculations for Total Employees, Annual Payroll, Department Counts, and Average Salary.
 - **Visual Analytics**: Interactive widgets providing a bird's-eye view of your organization's human capital.
 
